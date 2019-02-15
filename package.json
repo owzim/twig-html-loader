@@ -2,7 +2,7 @@
   "name": "twig-html-loader",
   "version": "0.1.4",
   "description": "Twig to html loader for webpack",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version"
@@ -26,8 +26,15 @@
   },
   "homepage": "https://github.com/radiocity/twig-html-loader#readme",
   "files": [
-    "index.js"
+    "src",
+    "dist"
   ],
+  "engines": {
+    "node": ">=6.11.5"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
   "dependencies": {
     "loader-utils": "^1.1.0",
     "twig": "^1.12.0"
