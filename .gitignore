@@ -1,2 +1,21 @@
-*.log
+# OS
+.DS_Store
+Thumbs.db
+
+# node.js & npm
 node_modules
+.nyc_output
+
+# Editor files
+/.project
+/.settings
+/.idea
+/.vscode
+
+# coverage
+coverage
+package-lock.json
+
+# logs
+*.log
+*.log*
