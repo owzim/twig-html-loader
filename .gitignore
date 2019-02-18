@@ -20,4 +20,5 @@ package-lock.json
 *.log
 *.log*
 
+/.eslintcache
 /dist
